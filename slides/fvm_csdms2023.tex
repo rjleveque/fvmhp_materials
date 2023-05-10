@@ -1,0 +1,148 @@
+
+\documentclass{beamer}
+
+\usepackage{beamerprosper}
+\usepackage{listings}
+\usepackage{multimedia}
+%\usepackage{movie15}
+\input{beamermacros}
+\input{FVMHPmacros}
+
+
+\newcommand{\mkslide}[1]{\title{CSDMS Tutorial on FV Methods, May 2023
+   \hskip 0.5cm Slide \#\theslideno\alph{subslide}\stepcounter{subslide} }
+   \input{#1}\stepcounter{slideno}\setcounter{subslide}{1}}
+
+\newcommand{\mkslidelabel}[2]{\title{#2}\input{#1}}
+
+% draft versions with path to slide:
+\renewcommand{\mkslide}[1]{\title{#1}\input{#1}}
+\renewcommand{\mkslidelabel}[2]{\title{#2 ~~~#1}\input{#1}}
+
+\mode<presentation>
+{
+  \usefonttheme{professionalfonts}
+  \usecolortheme{UW}
+  \useinnertheme{circles}
+  %\useoutertheme{splitnofooter}
+  \useoutertheme{split2}
+
+\setbeamertemplate{navigation symbols}{}
+  \setbeamercovered{transparent}
+  % or whatever (possibly just delete it)
+}
+
+
+\usepackage[english]{babel}
+% or whatever
+
+\usepackage[latin1]{inputenc}
+% or whatever
+
+\usepackage{times}
+\usepackage[T1]{fontenc}
+% Or whatever. Note that the encoding and the font should match. If T1
+% does not look nice, try deleting the line with the fontenc.
+
+
+\title[Short Paper Title] % (optional, use only with long paper titles)
+{Title As It Is In the Proceedings}
+
+\subtitle
+{Include Only If Paper Has a Subtitle}
+
+\author[R.\ J.\ LeVeque, University of Washington]{R.\ J.\ LeVeque}
+
+\institute[UW] % (optional, but mostly needed)
+
+\date[] 
+
+
+\begin{document}
+\newcounter{slideno}
+\setcounter{slideno}{1}
+\newcounter{subslide}
+\setcounter{subslide}{1}
+
+
+
+%--------------------------------------------------------------------
+% SLIDES
+%--------------------------------------------------------------------
+
+\mkslide{csdms2023/title-csdms2023.be}
+\mkslide{csdms2023/links.be}
+
+\mkslidelabel{fvm/advseq0.be}{FVMHP Sec.\ 2.1}
+\mkslide{csdms2023/methods1fdm.be}
+\mkslidelabel{fvm/fd1dt.be}{FVMHP Sec.\ 4.1}
+
+\mkslide{csdms2023/methods1fem1.be}
+\mkslide{csdms2023/methods1fem2.be}
+\mkslide{csdms2023/methods1fvm1.be}
+
+\mkslidelabel{fvm/deriv1a.be}{FVMHP Chap.\ 2}
+\mkslidelabel{fvm/deriv1b.be}{FVMHP Chap.\ 2}
+\mkslidelabel{fvm/deriv2.be}{FVMHP Chap.\ 2}
+
+\mkslidelabel{fvm/advflux1.be}{FVMHP Sec.\ 2.1}
+\mkslidelabel{fvm/fv2a.be}{FVMHP Sec.\ 4.1}
+\mkslidelabel{fvm/fv4.be}{FVMHP Sec.\ 4.1}
+\mkslidelabel{fvm/upwind-flux.be}{FVMHP Sec.\ 4.11}
+\mkslidelabel{fvm/fdfv.be}{FVMHP Sec.\ 4.1}
+
+\mkslidelabel{fvm/fv4.be}{FVMHP Sec.\ 4.1}
+\mkslidelabel{fvm/upwind-flux.be}{FVMHP Sec.\ 4.11}
+
+\mkslidelabel{fvm/diffflux.be}{FVMHP Sec.\ 2.2}
+\mkslidelabel{fvm/advdiff.be}{FVMHP Sec.\ 2.2}
+\mkslidelabel{fvm/advrpvv.be}{FVMHP Sec.\ 11.6}
+
+\mkslidelabel{fvm/src1b.be}{FVMHP Sec.\ 2.5}
+\mkslidelabel{fvm/adv-react.be}{FVMHP Sec.\ 2.5}
+
+\mkslidelabel{fvm/swderiv1.be}{FVMHP Sec.\ 13.1}
+\mkslidelabel{fvm/shockform1a.be}{FVMHP Chap.\ 13}
+\mkslidelabel{fvm/swrpseq.be}{FVMHP Chap.\ 13}
+\mkslidelabel{fvm/RpJs1.be}{RpJs/Shallow\_water.ipynb}
+
+\subsection{Conservation form}
+\mkslidelabel{fvm/consform.be}{FVMHP Sec.\ 4.1}
+\mkslidelabel{fvm/scalar1.be}{FVMHP Sec.\ 12.9}
+\mkslidelabel{fvm/impconform.be}{FVMHP Sec.\ 12.9}
+\mkslidelabel{fvm/weakdepends1a.be}{FVMHP Sec.\ 12.9}
+
+\subsection{Godunov's method}
+\mkslidelabel{fvm/godview1.be}{FVMHP Sec.\ 4.10}
+\mkslidelabel{fvm/godview1a.be}{FVMHP Sec.\ 4.10}
+\mkslidelabel{fvm/rea1.be}{FVMHP Sec.\ 4.10}
+\mkslidelabel{fvm/rea1fig.be}{FVMHP Sec.\ 4.11}
+
+\mkslidelabel{fvm/fdfv.be}{FVMHP Sec.\ 4.1}
+\mkslidelabel{fvm/upwindorder1.be}{FVMHP Chap.\ 8}
+\mkslidelabel{fvm/upwindorder2.be}{FVMHP Chap.\ 8}
+\mkslidelabel{fvm/upwindorder3.be}{FVMHP Chap.\ 8}
+\mkslidelabel{fvm/upwindorder4.be}{FVMHP Chap.\ 8}
+
+\subsection{CFL Condition}
+\mkslidelabel{fvm/fundthm.be}{FVMHP Sec.\ 4.1}
+\mkslidelabel{fvm/upwindstable1.be}{FVMHP Sec.\ 4.1}
+\mkslidelabel{fvm/cfldt.be}{FVMHP Sec.\ 4.4}
+\mkslidelabel{fvm/doddt.be}{FVMHP Sec.\ 4.4}
+\mkslidelabel{fvm/dodchardt.be}{FVMHP Sec.\ 4.4}
+\mkslidelabel{fvm/stencilsdt.be}{FVMHP Sec.\ 4.4}
+\mkslidelabel{fvm/dodheat.be}{FVMHP Sec.\ 4.4}
+
+\mkslidelabel{fvm/hires-goal.be}{FVMHP Chap.\ 6}
+\mkslidelabel{fvm/rea2.be}{FVMHP Sec.\ 6.9}
+\mkslidelabel{fvm/rea2fig.be}{FVMHP Sec.\ 6.9}
+\mkslidelabel{fvm/sigmastep1lw.be}{FVMHP Sec.\ 6.6}
+\mkslidelabel{fvm/sigmastep1minmod.be}{FVMHP Sec.\ 6.4}
+\mkslidelabel{fvm/advcompare2.be}{FVMHP Fig.\ 6.1}
+
+
+\subsection{Source terms}
+
+
+
+\end{document}

@@ -13,8 +13,8 @@
 \eqmno
 \ddt \int_{\ximh}^{\xiph} q(x,t)\,dx &=& f(q(\ximh,t)) - f(q(\xiph,t))\\
 \enmno
-leads to conservation law $q_t + f_x = 0$  but also directly to numerical
-method.
+leads to conservation law $q_t + f(q)_x = 0$,  \\
+and also directly to numerical method.
 \ei
 
 

@@ -6,14 +6,18 @@
 \vsp
 \centerline{\includegraphics[width=3.5in]{csdms2023/figs/swrpxt.jpg}}
 
-\vvsp
-{\blue Similarity solution:}\\
-Solution is constant on any ray: $~~q(x,t) = Q(x/t)$\\
+\vsp
+{\blue Similarity solution:}
+Constant on any ray: $~~q(x,t) = Q(x/t)$\\
 \vsp
 Riemann solution can be calculated for many problems.\\
 Linear: Eigenvector decomposition.  Nonlinear: more difficult.
 \vsp
 In practice ``approximate Riemann solvers'' used numerically.
+\vsp
+Shock/rarefaction structure depends on data, see \\
+\hhsp \hhsp\href{http://www.clawpack.org/riemann_book/index.html}
+{\green\prsmall\bf www.clawpack.org/riemann\_book}
 
 \end{slide}
 

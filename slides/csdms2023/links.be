@@ -2,6 +2,12 @@
 
 \begin{frame}[fragile]
 \frametitle{Some references}
+{\small
+These slides: 
+\href{https://tinyurl.com/fvm-csdms}
+{\green\prsmall\bf https://tinyurl.com/fvm-csdms}
+\vsp
+\vsp
 {\blue FVHMP} on slides refers to the book\\
 \hhsp
 \href{http://www.clawpack.org/fvmhp_materials/}{\green\prsmall\bf  Finite
@@ -25,7 +31,7 @@ github.com/clawpack/fvmhp\_materials}
 %{\green\prsmall\bf Riemann Problems and Jupyter Solutions} \\
 \item Riemann Problems and Jupyter Solutions,\\
  by D.I Ketcheson, RJL, and M. del Razo (SIAM 2020)\\
-\hhsp\href{http://www.clawpack.org/riemann_book/html/Index.html}
+\hhsp\href{http://www.clawpack.org/riemann_book/index.html}
 {\green\prsmall\bf www.clawpack.org/riemann\_book}
 
 \vsp
@@ -36,4 +42,5 @@ github.com/clawpack/fvmhp\_materials}
 {\green\prsmall\bf github.com/clawpack/geoclaw\_tutorial\_csdms2019}
 \end{itemize} 
 
+}
 \end{frame}

@@ -16,10 +16,15 @@ CSDMS Annual Meeting, May 2023\\
 }
 \vvsp
 
-\href{?}{\green\prsmall\bf  Community Surface Dynamics Modeling Systems}
+\href{https://csdms.colorado.edu/wiki/Form:Annualmeeting2023}
+{\green\prsmall\bf  Community Surface Dynamics Modeling Systems}
 \vsp
 {\small University of Colorado}
 
+\vvsp
+These slides: 
+\href{https://tinyurl.com/fvm-csdms}
+{\green\prsmall\bf https://tinyurl.com/fvm-csdms}
 \ec
 
 \end{frame}

@@ -12,7 +12,7 @@ Written in form that mimics PDE:
 \]
 \visible<2->{
 {\blue Local truncation error}:\\
-\hhsp Insert true solution $u(x,t)$ into difference equation
+\hhsp Insert true solution $q(x,t)$ into difference equation
 \[
 \tau(x,t) = \left(\frac{q(x_i,\tnp) -q(x_i,t_n)}{\Dt}\right) 
 + u\left(\frac{q(x_i,t_n)-q(x_{i-1},t_n)}{\Dx}\right)

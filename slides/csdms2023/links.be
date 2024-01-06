@@ -4,8 +4,16 @@
 \frametitle{Some references}
 {\small
 These slides: 
-\href{https://tinyurl.com/fvm-csdms}
-{\green\prsmall\bf https://tinyurl.com/fvm-csdms}
+\href{https://github.com/clawpack/fvmhp_materials}{\green\prsmall\bf
+github.com/clawpack/fvmhp\_materials}
+
+\vsp
+Video:
+\href{https://www.youtube.com/channel/UCxIdwWtDvUG_kdn-KiSVroQ}
+{\green\prsmall\bf YouTube Clawpack channel} \\
+
+%\href{https://tinyurl.com/fvm-csdms}
+%{\green\prsmall\bf https://tinyurl.com/fvm-csdms}
 \vsp
 \vsp
 {\blue FVHMP} on slides refers to the book\\
@@ -18,13 +26,17 @@ Volume Methods for Hyperbolic Problems} \\
 See also:
 \vsp
 \begin{itemize} 
-\item Lectures from 2023 UW class using FVMHP:\\
-%\href{https://www.youtube.com/playlist?list=PLHJVj2zE9oLRPo7Xn1QI6WTl9QrBXLkqS}
+\item Lectures from 
+\href{https://faculty.washington.edu/rjl/classes/am574w2023/lectures.html}
+{\green\prsmall\bf 2023 UW class using FVMHP:}\\
 \hhsp \href{https://www.youtube.com/channel/UCxIdwWtDvUG_kdn-KiSVroQ}
-{\green\prsmall\bf YouTube Clawpack channel} (FVMHP playlist)\\
+{\green\prsmall\bf YouTube Clawpack channel} on the
+\href{https://www.youtube.com/playlist?list=PLHJVj2zE9oLRPo7Xn1QI6WTl9QrBXLkqS}
+{\green\prsmall\bf (FVMHP playlist)} \\
+
 %\hhsp Slides (pdf and LaTeX): \\
-\hhsp \href{https://github.com/clawpack/fvmhp_materials}{\green\prsmall\bf  
-github.com/clawpack/fvmhp\_materials}
+%\hhsp \href{https://github.com/clawpack/fvmhp_materials}{\green\prsmall\bf  
+%github.com/clawpack/fvmhp\_materials}
 
 \vsp
 %\item \href{https://bookstore.siam.org/fa16/bonus}
@@ -37,9 +49,11 @@ github.com/clawpack/fvmhp\_materials}
 \vsp
 \item 
 \href{https://csdms.colorado.edu/wiki/Presenters-0439}
-{\green\prsmall\bf CSDMS Webinar GeoClaw Tutorial} (May 2019)\\
-\hhsp \href{https://github.com/clawpack/geoclaw_tutorial_csdms2019}
-{\green\prsmall\bf github.com/clawpack/geoclaw\_tutorial\_csdms2019}
+{\green\prsmall\bf CSDMS Webinar GeoClaw Tutorial} (video from May 2019)\\
+{\prsmall
+\hhsp Notebooks: \href{https://github.com/clawpack/geoclaw_tutorial_csdms2019}
+{\green\prSmall\bf github.com/clawpack/geoclaw\_tutorial\_csdms2019}
+}
 \end{itemize} 
 
 }

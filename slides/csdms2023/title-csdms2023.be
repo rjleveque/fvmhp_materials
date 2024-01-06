@@ -12,6 +12,7 @@ Surface Dynamics Modeling
 {\large
 Randy LeVeque, University of Washington
 \vsp
+Adapted from a Clinic at the \\
 CSDMS Annual Meeting, May 2023\\
 }
 \vvsp
@@ -21,10 +22,11 @@ CSDMS Annual Meeting, May 2023\\
 \vsp
 {\small University of Colorado}
 
-\vvsp
-These slides: 
-\href{https://tinyurl.com/fvm-csdms}
-{\green\prsmall\bf https://tinyurl.com/fvm-csdms}
+%\vvsp
+%These slides: 
+%\href{https://tinyurl.com/fvm-csdms}
+%{\green\prsmall\bf https://tinyurl.com/fvm-csdms}
+
 \ec
 
 \end{frame}
